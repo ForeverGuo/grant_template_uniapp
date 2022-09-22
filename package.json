@@ -1,13 +1,13 @@
 {
-  "name": "mini",
-  "version": "1.0.0",
-  "description": "",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
   "main": "main.js",
   "scripts": {
     "serve": "npm run install"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
