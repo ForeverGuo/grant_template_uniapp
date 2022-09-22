@@ -1,0 +1,47 @@
+{
+	"easycom": {
+		 "autoscan": true,
+		 	"custom": {
+		 		"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+		 	}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/webview/index",
+			"style": {
+				"navigationBarTitleText": "健康160"
+			}
+		}
+	],
+	// 切换缓存
+	// "tabBar": {
+
+	// },
+	// 分包定义
+	"subPackages": [
+		// {
+		// 	"root": 'xxx',
+		// 	"pages": [{
+				
+		// 	}]
+		// }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ch小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		// 小程序支持 vant ui 可以自行引入相关包
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-popup": "/wxcomponents/vant/dist/popup/index",
+			"van-toast": "/wxcomponents/vant/dist/toast/index"
+		}
+	}
+}
