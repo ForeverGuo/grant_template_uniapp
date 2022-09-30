@@ -14,7 +14,7 @@
 
 ## 技术框架
 
-  --	vue3 + pinia(自带pinia) + uni-ui  
+  	--	vue3 + pinia(自带pinia) + uni-ui  
 	--	uni 插件市场 vk-uview 可自行安装，支持 vue3  
 	--	已引入vant微信小程序包，可自行引入组件  
 
