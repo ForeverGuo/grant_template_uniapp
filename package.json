@@ -1,13 +1,13 @@
 {
-  "name": "uniapp",
-  "version": "",
-  "description": "",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
   "main": "main.js",
   "scripts": {
     "serve": "npm run install"
   },
   "keywords": ["uniapp", "vue3"],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
